@@ -1,0 +1,111 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+    background-color: #FFF00E;
+}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
+	margin: 0; 
+	padding: 0;
+	}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+h2 {
+	color: navy;
+    margin-left: 20px;
+}
+
+h3 {
+	color: navy;
+    margin-left: 20px;
+}
+
+p {
+	color: red;
+	margin-left: 30px;
+	margin-top: 0; 
+	text-align: justify;
+}
+
+.page-wrapper { 
+	/* background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; */
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+.summary {
+	clear: both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: green;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+.extra1 {
+	/* background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; */
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
