@@ -5,16 +5,17 @@ html {
 
 
 body { 
-	background-image: url("images/bakgrund.jpg");
-	background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
 	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
 	margin: 0; 
 	padding: 0;
+	background-image: url("images/bakgrund.jpg");
+	background: #fff url(images/bakgrund.jpg) no-repeat top;
+	/*background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;*/
 	}
 
 h1 {
@@ -43,24 +44,38 @@ p {
 }
 
 header {
-	margin-top: 50px;
 	margin: 0px;
 }
 
 footer {
 	background: #93c47d;
+	vertical-align: bottom;
 }
 
 nav ul li {
 	background: #93c47d;
 	display: inline-block;
 	list-style-type: none;
-	margin: 5px;
-	padding: 5px 15px 5px 15px;
+	margin: 10px;
+	padding: 5px 15px;
+	float: right;
 }
 
 nav ul li a {
 	color: white;
+}
+
+.box {
+	display: inline-block;
+	width: 60%;
+	min-width: 600px;
+}
+
+
+.boxprojekt {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
 }
 
 #profil {
@@ -73,6 +88,7 @@ nav ul li a {
 	display: inline-block;
 	float: right;
 	margin-right: 100px;
+	min-width: 300px;
 }
 
 #profilbild {
