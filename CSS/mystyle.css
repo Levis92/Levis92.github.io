@@ -11,11 +11,8 @@ body {
 	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
 	margin: 0; 
 	padding: 0;
-	background-image: url("images/bakgrund.jpg");
-	background: #fff url(images/bakgrund.jpg) no-repeat top;
-	/*background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;*/
+	background: #fff url('../images/bakgrund.jpg') no-repeat middle top fixed;
+	background-size: cover;
 	}
 
 h1 {
@@ -45,6 +42,8 @@ p {
 
 header {
 	margin: 0px;
+	background: #fff url(../images/bakgrund.jpg) no-repeat middle top fixed;
+	background-size: cover;
 }
 
 footer {
@@ -74,8 +73,17 @@ nav ul li a {
 
 .boxprojekt {
 	display: inline-block;
-	width: 30%;
+	width: 37%;
 	vertical-align: top;
+	background-color: lightblue;
+	margin: 10px 15px;
+	border-radius: 5px;
+	float: right;
+}
+
+#socialmedia {
+	display: inline-block;
+	float: right;
 }
 
 #profil {
@@ -106,4 +114,9 @@ ul li {
 	display: inline-block;
 	list-style-type: none;
 	margin: 0px 10px 0px 0px;
+}
+
+#copyright {
+	display: inline;
+	margin-left: 20px;
 }
