@@ -214,6 +214,8 @@ footer {
 
 form {
 	width: 30%;
+	min-width: 400px;
+	max-width: 500px;
 	margin: auto;
 }
 
@@ -238,10 +240,9 @@ textarea {
 #contact {
 	display: inline-block;
 	list-style-type: none;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 #copyright {
 	display: inline;
-	margin-left: 20px;
 }
