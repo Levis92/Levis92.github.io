@@ -212,6 +212,29 @@ footer {
 	width: 100%;
 }
 
+form {
+	width: 30%;
+	margin: auto;
+}
+
+label, input, textarea {
+	font-size: 1.2rem;
+}
+
+input {
+	width: 100%;
+}
+
+#submit {
+	width: 120px;
+	float: right;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 15px;
+}
+
 #contact {
 	display: inline-block;
 	list-style-type: none;
