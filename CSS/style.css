@@ -1,0 +1,224 @@
+/***********************************************************
+				GENERAL
+***********************************************************/
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+
+body { 
+	font: 75% "Helvetica Neue", georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; */
+	margin: 0; 
+	padding: 0;
+	background-color: #F4EDEE;
+	}
+
+h2 {
+	color: #555753;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+h3 {
+	color: #555753;
+	font-size: 1.5rem;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+p {
+	font-size: 1.5em;
+	margin-left: 30px;
+	margin-top: 0;
+	margin-right: 30px;
+	text-align: justify;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px 10px 0px 0px;
+}
+
+/***********************************************************
+				Header
+***********************************************************/
+
+header img {
+	margin: 0px;
+}
+
+nav {
+	display: inline;
+	margin: 0px;
+}
+
+nav ul li, #socialmedia {
+	display: inline;
+	margin: 0px;
+	padding: 5px 10px 5px 5px;
+	border-radius: 5px 0 0 0;
+	float: right;
+}
+
+nav li {
+	position: relative;
+	top: 27px;
+	right: 20px;
+}
+
+nav ul li a {
+	color: grey;
+	text-decoration: none;
+}
+
+#header-image {
+	margin: 0px;
+	width: 100%;
+	height: 0;
+	padding-top: 30%;
+	background: #fff url("../images/bakgrund.jpg") no-repeat top fixed;
+	background-size: contain;
+}
+
+#profile {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	position: relative;
+	margin: 0;
+	background: linear-gradient(#a7d279 15%, #99cc66 50%, #99cc66 85%, #a7d279 100%);
+	height: 300px;
+	width: 100%;
+	font-size: 150%;
+}
+
+#profile-image {
+	margin: 15px 15px 15px 15px;
+	position: absolute;
+	top: -130px;
+	left: 50px;
+	float: left;
+}
+
+#profile-name h1 {
+	color: #555753;
+    font-size: 2.5rem;
+    flex-shrink: 4;
+}
+
+#socialmedia {
+	display: inline;
+	flex-shrink: 1;
+	margin: 0;
+	position: relative;
+	top: 10px;
+
+}
+
+#twitter {
+	position: relative;
+	top: 10px;
+}
+
+#profile-text {
+	float: right;
+	flex-shrink: 3;
+	margin-right: 20px;
+	width: 70%;
+	font-family: cursive;
+}
+
+/***********************************************************
+				MAIN
+***********************************************************/
+
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+	min-width: 600px;
+}
+
+#about {
+	width: 70%;
+}
+
+.box-project img {
+	border-radius: 5px;
+}
+
+.sidebar {
+	background-color: lightgrey;
+	border-left: 5px solid #99cc66;
+	margin-top: 20px;
+	padding: 0px;
+	width: 28%;
+	height: 300px;
+}
+
+.sidebar ul li {
+	display: list-item;
+	font-size: 1.5rem;
+}
+
+.association:last-child {
+	border-bottom: none;
+}
+
+.association {
+	width: 70%;
+	border-bottom: 3px solid lightgrey;
+	margin-top: 20px;
+}
+
+.association p {
+	width: 70%;
+}
+
+.association img {
+	float: right;
+}
+
+.box-project {
+	margin: 10px 15px;
+	padding: 0px;
+	width: 100%;
+}
+
+h3 span {
+	font-size: 1rem;
+}
+
+/***********************************************************
+				FOOTER
+***********************************************************/
+
+footer {
+	background: #93c47d;
+	width: 100%;
+}
+
+#contact {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 30px;
+}
+
+#copyright {
+	display: inline;
+	margin-left: 20px;
+}
