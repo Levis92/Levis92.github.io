@@ -53,6 +53,10 @@
 		margin: auto;
 	}
 
+	body {
+		overflow-x: hidden;
+	}
+
 	nav {
 		width: 10%;
 		position: relative;
