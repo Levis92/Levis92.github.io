@@ -5,33 +5,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> Om mig || Anton Levholm </title>
 		<link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="CSS/mobile-style.css">
 	</head>
 
 	<body>
-		<div id="header-image">
-		</div>
+		<div id="header-image"></div>
 		<header id="profile">
 			<div id="profile-image">
 				<img id="profilbild" src="images/profilbild.png" alt="Profilbild">
 			</div>
-			<div id="profile-name">
+			<div id="profile-info">
+				<div id="profile-name">
 				<h1>Anton Levholm</h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="http://levis92.github.io/CV/index.html"><strong>CV</strong></a></li>
-				</ul>
-			</nav>
-			<div id="socialmedia">
-				<ul>
-					<li id="github"><a href="https://github.com/Levis92"><img src="images/GitHub-Mark-32px.png"></a></li>
-					<li id="linkedin"><a href="https://se.linkedin.com/in/anton-levholm-60083051"><img src="images/In-2C-28px-R.png"></a></li>
-					<li id="fb"><a href="https://www.facebook.com/anton.levholm"><img src="images/FB-f-Logo__blue_29.png"></a></li>
-					<li id="twitter"><a href="https://twitter.com/ALevholm"><img src="images/TwitterLogo.png" width="48" height="48"></a></li>
-				</ul>
-			</div>
-			<div id="profile-text">
-				<p><em>"Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power"</em><br> - Lao Tzu</p>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="http://levis92.github.io/CV/index.html"><strong>CV</strong></a></li>
+					</ul>
+				</nav>
+				<div id="socialmedia">
+					<ul>
+						<li id="github"><a href="https://github.com/Levis92"><img src="images/GitHub-Mark-32px.png"></a></li>
+						<li id="linkedin"><a href="https://se.linkedin.com/in/anton-levholm-60083051"><img src="images/In-2C-28px-R.png"></a></li>
+						<li id="fb"><a href="https://www.facebook.com/anton.levholm"><img src="images/FB-f-Logo__blue_29.png"></a></li>
+						<li id="twitter"><a href="https://twitter.com/ALevholm"><img src="images/TwitterLogo.png" width="48" height="48"></a></li>
+					</ul>
+				</div>
+				<div id="profile-text">
+					<p><em>"Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power"</em><br> - Lao Tzu</p>
+				</div>
 			</div>
 		</header>
 		
@@ -60,22 +62,22 @@
 					<h2>Föreningar</h2>
 					<div class="association">
 						<h3>IAESTE Göteborg<span> - Aktiv December 2015 - Juni 2017</span></h3>
-						<img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/>
+						<a class="grow" href="http://iaeste.se/student/lokalkommitteer/goteborg/" target="_blank"><img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perspiciatis aspernatur facilis esse error, ipsa repudiandae nostrum necessitatibus adipisci aliquam culpa itaque tempora blanditiis, vero laboriosam eos eveniet enim? Numquam.</p>
 					</div>
 					<div class="association">
 						<h3>Förtroenderådet (CSB)<span> - Aktiv Juni 2015 - Nu</span></h3>
-						<img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/>
+						<a href="http://iaeste.se/student/lokalkommitteer/goteborg/" target="_blank"><img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perspiciatis aspernatur facilis esse error, ipsa repudiandae nostrum necessitatibus adipisci aliquam culpa itaque tempora blanditiis, vero laboriosam eos eveniet enim? Numquam.</p>
 					</div>
 					<div class="association">
 						<h3>F-spexet<span> - Aktiv September 2014 - Nu</span></h3>
-						<img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/>
+						<a href="http://iaeste.se/student/lokalkommitteer/goteborg/" target="_blank"><img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perspiciatis aspernatur facilis esse error, ipsa repudiandae nostrum necessitatibus adipisci aliquam culpa itaque tempora blanditiis, vero laboriosam eos eveniet enim? Numquam.</p>
 					</div>
 					<div class="association">
 						<h3>Filosofspexet<span> - Aktiv September 2011 - Nu</span></h3>
-						<img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/>
+						<a href="http://iaeste.se/student/lokalkommitteer/goteborg/" target="_blank"><img src="images/Iaeste-logga.png" alt="IAESTE Göteborg"/></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem perspiciatis aspernatur facilis esse error, ipsa repudiandae nostrum necessitatibus adipisci aliquam culpa itaque tempora blanditiis, vero laboriosam eos eveniet enim? Numquam.</p>
 					</div>
 				</div>
@@ -83,17 +85,19 @@
 		</main>
 
 		<footer>
-			<h2>Kontakt</h2>
-			<form action="">
-				<label for="subject">Ämne: </label><br>
-				<input type="text" name="subject"><br>
-				<label for="name">Ditt namn: </label><br>
-				<input type="text" name="name"><br>
-				<label for="email">Din email: </label><br>
-				<input type="text" name="email"><br>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-				<input type="submit" id="submit" value="Skicka"><br>
-			</form>
+			<div id="contact-container">
+				<h2 id="contact-title">Kontakt</h2>
+				<!-- <form action="">
+					<label for="subject">Ämne: </label><br>
+					<input type="text" name="subject"><br>
+					<label for="name">Ditt namn: </label><br>
+					<input type="text" name="name"><br>
+					<label for="email">Din email: </label><br>
+					<input type="text" name="email"><br>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+					<input type="submit" id="submit" value="Skicka"><br>
+				</form> -->
+			</div>
 			<div id="footer-bottom">
 				<ul id="contact">
 				  <li class="info"> Telefon: <a href="tel:+46722394723"> 072 - 239 47 23</a></li>

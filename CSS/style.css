@@ -150,7 +150,7 @@ nav ul li a {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	width: 100%;
-	min-width: 600px;
+	
 }
 
 #about {
@@ -203,6 +203,14 @@ h3 span {
 	font-size: 1rem;
 }
 
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+}
+
 /***********************************************************
 				FOOTER
 ***********************************************************/
@@ -210,10 +218,20 @@ h3 span {
 footer {
 	background: #93c47d;
 	width: 100%;
+	margin: auto;
+}
+
+#contact-container {
+	width: 30%;
+	margin: auto;
+}
+
+#contact-title {
+	margin-left: 0;
 }
 
 form {
-	width: 30%;
+	width: 100%;
 	min-width: 400px;
 	max-width: 500px;
 	margin: auto;
@@ -245,4 +263,5 @@ textarea {
 
 #copyright {
 	display: inline;
+	margin: auto;
 }
