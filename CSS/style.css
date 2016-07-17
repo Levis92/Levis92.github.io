@@ -101,7 +101,7 @@ nav ul li a {
 	background: linear-gradient(#a7d279 15%, #99cc66 50%, #99cc66 85%, #a7d279 100%);
 	height: 300px;
 	width: 100%;
-	font-size: 150%;
+	font-size: 1.5rem;
 }
 
 #profile-image {
