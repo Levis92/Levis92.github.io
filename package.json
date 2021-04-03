@@ -1,25 +1,38 @@
 {
-  "name": "webpage",
+  "name": "personal-website",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://Levis92.github.io",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-brands-svg-icons": "^5.3.1",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
-    "@fortawesome/react-fontawesome": "^0.1.2",
-    "gh-pages": "^1.2.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "styled-components": "^3.4.5"
-  },
+  "description": "My personal site",
   "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -b master -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Levis92/Levis92.github.io.git"
+  },
+  "author": {
+    "name": "Anton Levholm",
+    "email": "anton@levholm.se",
+    "url": "https://levholm.se/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Levis92/Levis92.github.io/issues"
+  },
+  "homepage": "https://levholm.se",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "gh-pages": "^3.1.0",
+    "luxon": "^1.26.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.1.0"
   }
 }

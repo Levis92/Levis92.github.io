@@ -1,0 +1,21 @@
+{
+  "title": "DevLife",
+  "url": "https://levholm.se/",
+  "language": "en",
+  "description": "I'm writing about code and life.",
+  "feed": {
+    "subtitle": "I'm writing about code and life.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://levholm.se/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://levholm.se/feed/feed.json"
+  },
+  "author": {
+    "name": "Anton Levholm",
+    "email": "anton@levholm.se",
+    "url": "https://levholm.se/about-me/"
+  }
+}

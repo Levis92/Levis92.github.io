@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "fa-github",
+    "url": "https://github.com/Levis92",
+    "color": "#24292e"
+  },
+  {
+    "icon": "fa-linkedin",
+    "url": "https://www.linkedin.com/in/anton-levholm/",
+    "color": "#006fa6"
+  },
+  {
+    "icon": "fa-twitter",
+    "url": "https://twitter.com/ALevholm",
+    "color": "#1da1f2"
+  }
+]
