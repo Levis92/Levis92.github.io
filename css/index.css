@@ -60,7 +60,7 @@ header, footer {
 header {
   border-bottom: 1px dashed var(--lightgray);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min-content 1fr;
 }
 header .nav {
   justify-self: end;
@@ -191,8 +191,8 @@ code {
   padding: 0;
 }
 .postlist-item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: min-content 1fr;
   align-items: baseline;
   counter-increment: start-from -1;
   line-height: 1.8;
@@ -203,6 +203,13 @@ code {
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+}
+.postlist-item-content {
+  display: grid;
+}
+.postlist-item-content .tags {
+  display: flex;
+  flex-wrap: wrap;
 }
 .postlist-date,
 .postlist-item:before {
@@ -246,6 +253,7 @@ code {
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   line-height: 1.8;
+  margin-bottom: 0.6em;
 }
 .post-tag:not(:last-child) {
   margin-right: 0.8em; /* 8px /10 */
