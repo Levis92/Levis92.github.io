@@ -110,7 +110,7 @@ To start writing blog posts regularly for starters. Thinking of writing one abou
 
 
 ## Resources
-- [Source for this page](https://github.com/Levis92/Levis92.github.io/)
+- [Source for this blog](https://github.com/Levis92/Levis92.github.io/)
 - [11ty homepage](https://www.11ty.dev)
 - [11ty starter templates](https://www.11ty.dev/docs/starter/)
 - [Getting started with Eleventy](https://www.sitepoint.com/getting-started-with-eleventy/)
