@@ -9,7 +9,8 @@
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d _site"
+    "deploy": "gh-pages -b master -d _site -r https://$GH_TOKEN@github.com/Levis92/Levis92.github.io.git",
+    "deploy:local": "gh-pages -b master -d _site"
   },
   "repository": {
     "type": "git",
