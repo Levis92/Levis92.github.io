@@ -33,4 +33,7 @@ jobs:
 
       # Deploy
       - name: deploy
+        env:
+          GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
+
         run: npm run deploy
