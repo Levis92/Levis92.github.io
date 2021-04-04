@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ develop ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Install dependencies
+      - name: npm ci
+        run: npm ci
+
+      # Deploy
+      - name: Deploy
+        run: |
+          npm run predeploy
+          npm run deploy
