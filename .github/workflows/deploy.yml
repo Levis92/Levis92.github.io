@@ -23,6 +23,14 @@ jobs:
       - name: predeploy
         run: npm run predeploy
 
+      # Set git user details
+      - name: Set git user details
+        run: |
+          git config --global user.name "$GITHUB_ACTOR"
+          git config --global user.email "$EMAIL"
+        env:
+          EMAIL: anton.badminton@gmail.com
+
       # Deploy
       - name: deploy
         run: npm run deploy
