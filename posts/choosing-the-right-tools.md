@@ -1,7 +1,7 @@
 ---
 title: Choosing the right tools
 description: This is a post about choosing the right tools for a project and making this blog.
-date: 2021-04-04
+date: 2021-04-05
 tags:
   - software development
   - 11ty
@@ -16,14 +16,17 @@ In other cases, it's not. Maybe you work in a startup in the making, want to sta
 
 This post is about when you have a choice. And why I, as a React developer, went with [11ty](https://www.11ty.dev/) instead of a React framework like [Next.js](https://nextjs.org) or [Gatsby](https://www.gatsbyjs.com).
 
-## The "new and shiny" problem
+## Possible obstacles
+There are any number of things that may affect your decision on a tech stack, and it's not always obvious without closer inspection why you made a certain choice. Sometimes you have to explore what's out there, and if you have the time, and are open to learning new tools, it could be worth some investigation. Just don't get trapped surrounded by all the options for too long!
+
+### The "new and shiny" problem
 Apart from learning how to build the thing, one of the biggest hurdles is finding new interesting frameworks that are incredibly cool and have all these fantastic features. You're easily distracted from what the purpose of your project is supposed to be.
 
 If the goal is to learn those specific frameworks, then, by all means, get to it and have fun. BUT, if the goal is to get stuff done, think about the requirements for the project.
 
 Does it need to be a mobile or desktop application? No? How about a PWA? Not that either? Does it need to be interactive and fetch data during runtime, or is it purely static content?
 
-## What is your hammer?
+### What is your hammer?
 Do you have a language, library or framework you use for everything? And do you know why you chose it? It's completely fair to use if it is enjoyable to work with and keeps you productive. Sometimes we even really need just to get started.
 
 React is my hammer. If I'd start a new project, the question usually was more about "How should I build this in React?" rather than "Should this be built with React?".
@@ -54,7 +57,7 @@ eleventy
 
 Isn't it beautiful? The simplicity of it. Write some markdown, and it creates HTML from it. To be fair, I kind of need a "little" more tweaking than that.
 
-## This blog
+## Building this blog
 To explore 11ty, I went through this [sitepoint tutorial](https://www.sitepoint.com/getting-started-with-eleventy/). After feeling a bit more familiar with how it works, I decided to use the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) template to get started building the real thing. It includes all the essential pages I need and generates an RSS feed, which was quite a big timesaver. I had to make a few modifications to the markup and styling to make it work the way I want, but for now, I'm fine with most of the layout.
 
 A couple of things I added to it was a markdown-it plugin for abbreviations and this filter for reading time from the tutorial I went through:
