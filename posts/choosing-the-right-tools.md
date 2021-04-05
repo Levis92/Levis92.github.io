@@ -10,7 +10,7 @@ tags:
 
 We've all been there. It's time to build a new project, and that means picking a tech stack.
 
-In some cases, it's already decided for you. The company or client your working for has a common set of tools for all their applications.
+In some cases, it's already decided for you. The company or client you're working for has a common set of tools for all their applications.
 
 In other cases, it's not. Maybe you work in a startup in the making, want to start building on a new cool idea you just had, or perhaps, like in my case, you want to develop a personal blog.
 
