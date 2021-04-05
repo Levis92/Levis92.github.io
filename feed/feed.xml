@@ -18,7 +18,7 @@
 		<updated>2021-04-05T00:00:00Z</updated>
 		<id>https://levholm.se/posts/choosing-the-right-tools/</id>
 		<content type="html">&lt;p&gt;We&#39;ve all been there. It&#39;s time to build a new project, and that means picking a tech stack.&lt;/p&gt;
-&lt;p&gt;In some cases, it&#39;s already decided for you. The company or client your working for has a common set of tools for all their applications.&lt;/p&gt;
+&lt;p&gt;In some cases, it&#39;s already decided for you. The company or client you&#39;re working for has a common set of tools for all their applications.&lt;/p&gt;
 &lt;p&gt;In other cases, it&#39;s not. Maybe you work in a startup in the making, want to start building on a new cool idea you just had, or perhaps, like in my case, you want to develop a personal blog.&lt;/p&gt;
 &lt;p&gt;This post is about when you have a choice. And why I, as a React developer, went with &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt; instead of a React framework like &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt; or &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;possible-obstacles&quot;&gt;Possible obstacles &lt;a class=&quot;direct-link&quot; href=&quot;https://levholm.se/posts/choosing-the-right-tools/#possible-obstacles&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
