@@ -43,6 +43,9 @@ Even moving from one framework to another can be done in steps. Just because you
 
 Instead it might be possible to start with a small part of the application and migrate that. In time the entire codebase will be migrated without having to stop development in other parts.
 
+## Further reading
+- [Mindful refactoring - Sara Jirholm](https://medium.com/@sarajirholm/mindful-refactoring-2b6e941977bd)
+
 
 *[API]: Application Programming Interface
 *[CSS]: Cascading Style Sheets
